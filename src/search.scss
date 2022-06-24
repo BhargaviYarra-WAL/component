@@ -1,0 +1,15 @@
+.local-search {
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .justify-content-center;
+  width: 100%;
+  height: 42px;
+  font-size: 13px;
+  font-weight: 600;
+  max-width: 310px;
+  line-height: 19px;
+  padding-left: 40px;
+  border: 1px solid $theme-placeholder-text;
+  @include box-shadow(none);
+  @include border-radius(4px);
+}
